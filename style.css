@@ -1,5 +1,14 @@
 /* Global styles */
 
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.left-side-bar__text {
+    font-size: 10px;
+    margin-top: 7px;
+}
+
 .navbar .search-form {
     max-width: 600px;
 }
