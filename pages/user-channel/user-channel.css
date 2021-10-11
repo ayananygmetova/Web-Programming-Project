@@ -1,4 +1,8 @@
 
+.container-fluid {
+    min-width: 90%;
+    height: auto;
+}
 
 .channel-head-bg {
     width: 100%;
@@ -372,7 +376,7 @@
 }
 
 .playlist-bg{
-    background-image: url('../../assets/main/video_img.jpg');
+    background-image: url('../../assets/main/video_img.webp');
     width: 210px ;
     height: 117.8px;
     background-size: cover;
