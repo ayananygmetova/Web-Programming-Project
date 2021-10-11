@@ -1,0 +1,454 @@
+
+
+.channel-head-bg {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.channel-head-bg-bottom {
+    padding: 16px 64.5px 4px;
+}
+
+.channel-display{
+    display: flex;
+    justify-content: center;
+}
+
+.channel-title-text {
+    color: #030303;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+}
+
+.channel-sub-sum-text {
+    color: #606060; ;
+    font-size: 14px ;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subscribe-btn-bg {
+    background-color: red;
+    text-align: center;
+    color: #FFFFFFFF;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-family: Arial, 'Roboto', sans-serif;
+    cursor: pointer;
+    border: none;
+    font-weight:600;
+    margin-top: 10px;
+}
+
+.div-tabs {
+    padding-left: 64.5px;
+    padding-right: 64.5px;
+}
+
+.tabs-display {
+    display: flex;
+}
+
+.tabs-text-item {
+    padding-top: 10px;
+}
+
+.tabs-text-item-style {
+    color: #606060;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 550;
+}
+
+.tabs-text-item-style button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #606060;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.tabs-text-item-style button:hover {
+    color: #1f1e1e;
+}
+
+.tabs-text-item-style button:active {
+    color: #2e2e2e;
+  }
+
+.horizontal-line-selected-tab {
+    height: 3px;
+    width: 100%;
+    background-color: #606060;
+}
+
+#main-tab-body {
+    background-color: #f1f1f1;
+    padding-left: 64.5px;
+    padding-right: 64.5px;
+    padding-bottom: 30px;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.main-tab-head-video {
+    display: flex;
+    padding: 24px 0px;
+}
+
+.main-tab-head-video-title {
+    color: #030303;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.main-tab-head-video-views {
+    color: #606060;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.main-tab-head-video-text-3 {
+    color: #030303;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.main-tab-head-video-text-4 {
+    color: #030303;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.album-title {
+    color: #030303;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume-all {
+    color: #606060;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 16px;
+}
+
+.box-video-title {
+    color: #030303;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.box-video-channel {
+    color: #606060;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#video-tab-body {
+    background-color: #f1f1f1;
+    padding-left: 64.5px;
+    padding-right: 64.5px;
+    padding-bottom: 30px;
+}
+
+.video-tab-uploads-text{
+    color: #030303;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.wrap-1 { 
+    height: auto;
+    width: 210px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+} 
+
+.wrap-2 {
+    display: flex;
+    height: auto;
+    width: 210px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#channels-tab-body {
+    background-color: #f1f1f1;
+    padding-left: 64.5px;
+    padding-right: 64.5px;
+    padding-bottom: 30px;
+}
+
+.channel-card-title {
+    color: #030303;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px 0px;
+    font-weight: 600;
+}
+
+.wrap-2 button {
+    color: #606060;
+    padding: 4px 8px;
+    font-size: 14px;
+    margin-top: 10px;
+    border: none;
+    font-weight: 500;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#about-channel-tab-body {
+    background-color: #f1f1f1;
+    padding-left: 64.5px;
+    padding-right: 64.5px;
+    padding-bottom: 30px;
+}
+
+.flex-container-about-channel {
+    display: flex;
+}
+
+.description-block {
+    width: 50%;
+    margin-right: 100px;
+}
+
+.about-channel-tab-desciprtion-text{
+    color: #030303;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+.about-channel-tab-statistics-text{
+    color: #030303;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+}
+
+.about-channel-text-1 {
+    color: #030303;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.about-channel-text-2 {
+    color: #030303;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container-links{
+    display: flex;
+}
+
+.social-networks-1 {
+    width: 50%;
+}
+
+.links-text-style {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #030303;
+    margin: 24px 0px;
+}
+
+.flex-container-links a {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #065FD4;
+    margin: 0px 0px 24px;
+}
+
+#playlist-tab-body {
+    background-color: #f1f1f1;
+    padding-left: 64.5px;
+    padding-right: 64.5px;
+    padding-bottom: 30px;
+}
+
+.all-playlist-text {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #030303;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-weight: 600;
+}
+
+
+#album-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 24px 0px;
+}
+
+.album-block {
+    display: flex;
+    width: 246px;
+    flex-wrap: wrap;
+}
+
+.album-bg {
+    width: 108px;
+    height: 138px;
+    background-color: #000000CC;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.album-block img {
+    object-fit: cover;
+}
+
+.album-text-block {
+    width: 50%;
+    margin-left: 24px;
+}
+
+.playlist-text-1 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #030303;
+}
+
+.playlist-text-2 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #606060;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.playlist-text-3 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #030303;
+    margin-bottom: 5px;
+}
+
+.playlist-bg{
+    background-image: url('../../assets/main/video_img.jpg');
+    width: 210px ;
+    height: 117.8px;
+    background-size: cover;
+}
+
+.playlist-bg-song-num {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: transparent;
+    background-color: #000000CC;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#community-tab-body {
+    background-color: #f1f1f1;
+    padding-left: 64.5px;
+    padding-right: 64.5px;
+    padding-bottom: 30px;
+}
+
+#community-news-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 24px;
+}
+
+.community-item-block {
+    width: 100%;
+    border: #606060 solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 16px 16px 8px;
+    margin: 0px 0px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.community-text-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #030303;
+    font-weight: 600;
+}
+
+.community-text-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #606060;
+}
+
+.community-text-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #030303;
+}
+
+.community-right-block {
+    margin-left: 8px;
+}
+
+.video-published-block {
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-published-text-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 10px;
+}
