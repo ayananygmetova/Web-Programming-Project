@@ -1,0 +1,37 @@
+.main-wrapper .main-wrapper__top {
+    display: flex;
+    border-top: 1px #ced4da solid;
+    border-bottom: 1px #ced4da solid;
+    padding: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-wrapper .main-wrapper__top .rounded-pill {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 8px 15px;
+    margin-right: 1rem;
+}
+
+.main-wrapper .main-wrapper__top .bg-light {
+    background-color: #F2F2F2 !important;
+    border: 1px solid #ced4da;
+}
+
+.main-wrapper .main-wrapper__top__body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F9F9F9;
+}
+
+.main-wrapper .main-wrapper__top__body .video .video__title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.main-wrapper .main-wrapper__top__body .video .video__caption {
+    font-size: 14px;
+    color: #606060;
+}

@@ -10,6 +10,27 @@ body {
     margin-top: 7px;
 }
 
+.left-side-bar__item:hover {
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+
+.left-side-bar__title {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #606060;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.left-side-bar__big-text {
+    font-size: 14px;
+    margin-left: 1.5rem;
+}
+
 .navbar .search-form {
     max-width: 600px;
 }
