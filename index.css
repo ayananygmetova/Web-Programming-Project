@@ -35,3 +35,11 @@
     font-size: 14px;
     color: #606060;
 }
+
+.left-side-bar {
+    flex-grow: 1;
+}
+
+.video {
+    width: 300px;
+}
