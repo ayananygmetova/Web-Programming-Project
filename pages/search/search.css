@@ -1,37 +1,81 @@
-.main-wrapper .main-wrapper__top {
+.filters {
+    border-bottom: 1px solid #ced4da;
+    align-items: center;
+    padding: 5px;
     display: flex;
-    border-top: 1px #ced4da solid;
-    border-bottom: 1px #ced4da solid;
-    padding: 1rem;
-    overflow: hidden;
-    position: relative;
 }
 
-.main-wrapper .main-wrapper__top .rounded-pill {
+.filters__text {
+    color: #606060;
+    text-transform: uppercase;
+    margin-left: 5px;
     font-size: 14px;
-    font-weight: normal;
-    padding: 8px 15px;
-    margin-right: 1rem;
+    font-weight: 500;
 }
 
-.main-wrapper .main-wrapper__top .bg-light {
-    background-color: #F2F2F2 !important;
-    border: 1px solid #ced4da;
-}
-
-.main-wrapper .main-wrapper__top__body {
-    display: flex;
-    flex-wrap: wrap;
+.main-wrapper {
     background-color: #F9F9F9;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
-.main-wrapper .main-wrapper__top__body .video .video__title {
+.main-wrapper__results {
+    padding: 1rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.main-wrapper__channel {
+    width: 385px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.video__title {
+    font-size: 18px;
+}
+
+.video__caption {
+    font-size: 12px;
+}
+
+.channel {
+    background-color: #F1F1F1;
+}
+
+.channel__title {
+    font-size: 18px;
+}
+
+.channel__sub-title {
+    font-size: 16px;
+    color: #606060;
+}
+
+.channel__button {
+    background-color: #CC0000;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-weight: 600;
+    border: none;
+    margin-top: 1rem;
+}
+
+.channel__song-title {
     font-size: 14px;
     font-weight: 600;
-    margin-bottom: 5px;
 }
 
-.main-wrapper .main-wrapper__top__body .video .video__caption {
-    font-size: 14px;
+.channel__caption {
+    font-size: 12px;
     color: #606060;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.channel__song {
+    border-bottom: 1px solid #ced4da;
+    padding-bottom: 10px;
 }
