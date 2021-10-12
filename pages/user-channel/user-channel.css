@@ -1,7 +1,12 @@
+#user-channel-wrapper {
+    display: flex; 
+    flex: 8; 
+    flex-wrap: wrap; 
+    flex-direction: column;
+}
 
-.container-fluid {
-    min-width: 90%;
-    height: auto;
+body {
+    overflow-y: scroll;
 }
 
 .channel-head-bg {
