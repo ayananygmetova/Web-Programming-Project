@@ -192,6 +192,9 @@ body {
 }
 
 .video-tab-uploads-text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     color: #030303;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -225,7 +228,8 @@ body {
     background-color: #f1f1f1;
     padding-left: 64.5px;
     padding-right: 64.5px;
-    padding-bottom: 30px;
+    padding-bottom: 200px;
+    
 }
 
 .channel-card-title {
