@@ -20,5 +20,5 @@ if ($uri[1] !== 'index.php') {
 $requestMethod = $_SERVER["REQUEST_METHOD"];
 $conn = new DatabaseConnector();
 $dbConnection = $conn->getConnection();
-$controller = new VideoController($dbConnection, $requestMethod);
+$controller = new VideoController($dbConnection, $requestMethod, $uri[2]);
 $controller->processRequest();
