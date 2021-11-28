@@ -8,10 +8,13 @@ class VideoController {
 
     private $videoGateway;
 
-    public function __construct($db, $requestMethod)
+    private $video_id;
+
+    public function __construct($db, $requestMethod, $video_id)
     {
         $this->db = $db;
         $this->requestMethod = $requestMethod;
+        $this->video_id = $video_id;
 
         $this->videoGateway = new VideoGateway($db);
     }
@@ -23,7 +26,7 @@ class VideoController {
                 // if ($this->userId) {
                 //     $response = $this->getUser($this->userId);
                 // } else {
-                    $response = $this->getAllVideos();
+                    $response = $this->getVideoDetails($this->video_id);
                 // };
                 break;
             // case 'POST':
@@ -45,9 +48,9 @@ class VideoController {
         }
     }
 
-    private function getAllVideos()
+    private function getVideoDetails($video_id)
     {
-        $result = $this->videoGateway->findAll();
+        $result = $this->videoGateway->video_details($video_id);
         $response['status_code_header'] = 'HTTP/1.1 200 OK';
         $response['body'] = json_encode($result);
         return $response;

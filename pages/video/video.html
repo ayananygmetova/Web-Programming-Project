@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="video.css"> 
     <link rel="stylesheet" href="../../index.css">
     <link rel="stylesheet" href="../../style.css">
- </head>
+   </head>
  <body>
     <div class="navbar d-flex justify-content-between px-4 pb-2">
          <div>
@@ -15,9 +15,7 @@
              <div class="search-form input-group">
                  <input type="text" value="drake" class="form-control" placeholder="Введите запрос">
                  <span class="input-group-text">
-                    <a href="../../pages/search/search.html">
-                        <img class="mx-2" src="../../assets/core/header/search.svg" alt="">
-                    </a>
+                     <img class="mx-2" src="../../assets/core/header/search.svg" alt="">
                  </span>
              </div>
              <img class="ms-3" src="../../assets/core/header/micro.svg" alt="">
@@ -157,7 +155,33 @@
       </div>
     </section>
     <section class="similar">
-      
+      <div class="d-flex">
+         <div>
+            <img width="168" height="90" src="../../assets/main/video_img.webp" ></div>
+         <div class="video_short_info">
+            <span class="video_name">Sam Smith - Stay With Me (Official Video)</span>
+            <span class="little_text">SAM SMITH</span>
+            <span class="little_text v" >1,1 млрд просмотров</span>
+                  <span class="little_text v" >·</span>
+                  <span class="little_text v" >7 лет назад</span>
+            
+         </div>
+      </div>
+      <!-- <?php
+      foreach($this->other_videos as $key=>$value){?>
+         <div class="d-flex" onclick="video_details($value['video_id'])">
+            <div >
+               <img width="168" height="90" src="../../assets/main/video_img.webp" ></div>
+            <div class="video_short_info">
+               <span class="video_name"><?php $value['video_title']?></span>
+               <span class="little_text">SAM SMITH</span>
+               <span class="little_text v" >1,1 млрд просмотров</span>
+                     <span class="little_text v" >·</span>
+                     <span class="little_text v" >7 лет назад</span>
+               
+            </div>
+         </div>
+      <?}?> -->
       <div class="d-flex">
          <div>
             <img width="168" height="90" src="../../assets/main/video_img.webp" ></div>
@@ -256,5 +280,18 @@
     <footer>
         
     </footer>
- </body>
-</html>
+  </body>
+  </html>
+<script>
+   function video_details(id) {
+      //   $('.linear-activity').show();
+        $.ajax({
+            type: 'POST',
+            url: "/index.php/"+id,
+            success: function(data){
+                return jQuery.parseJSON(data);
+            }
+        });
+    }
+
+</script>
