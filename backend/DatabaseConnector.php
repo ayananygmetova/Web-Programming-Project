@@ -11,6 +11,7 @@ class DatabaseConnector {
             $username = "root"; // имя пользователя
             $password = "mysql_root_password"; // пароль если существует
             $dbname = "kbtube"; // база данных
+        
             $this->dbConnection =  new mysqli($servername, $username, $password, $dbname);
         } catch (Exception $e) {
             exit($e->getMessage());

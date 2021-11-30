@@ -9,6 +9,7 @@ class VideoGateway{
     }
 
     public function video_details($video_id){
+
         $one_video = "
         SELECT 
             id, video_url, video_title, video_description, user_id
@@ -24,7 +25,6 @@ class VideoGateway{
         WHERE id != " . $video_id;
 
     try {
-        
         $video_query = mysqli_query($this->db,$one_video);
         $video_res = mysqli_fetch_array($video_query,MYSQLI_ASSOC);
         $other_video_queries = mysqli_query($this->db,$other_videos);
